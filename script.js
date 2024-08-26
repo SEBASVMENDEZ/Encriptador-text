@@ -10,7 +10,7 @@ function btnEncriptar() {
         mensaje.value = textoEncriptado;
         texarea.value = "";
         mensaje.style.backgroundImage = "none";
-        mostrarMensajeExito("Texto encriptado con éxito", "IMG/Exito.jpg"); 
+        mostrarMensajeExito("Texto encriptado con éxito", "img/Exito.jpg"); 
     }
 }
 
@@ -21,7 +21,7 @@ function btnDesencriptar() {
         mensaje.value = textoDesencriptado;
         texarea.value = "";
         mensaje.style.backgroundImage = "none";
-        mostrarMensajeExito("Texto desencriptado con éxito", "IMG/Exito.jpg"); 
+        mostrarMensajeExito("Texto desencriptado con éxito", "img/Exito.jpg"); 
     }
 }
 
